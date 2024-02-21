@@ -1,0 +1,25 @@
+# Ignore system directories
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+
+# Ignore specific files
+.bash_history
+.dotnet/
+.gitconfig
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lesshst
+.librarymanager/
+.platformio/
+.ssh/
+.vscode/
