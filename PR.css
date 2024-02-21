@@ -78,19 +78,25 @@ body {
 
 /* Neon flickering effect */
 @keyframes neon-flicker {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    text-shadow:
-      0px 0px 6px rgba(255, 0, 0, 0.92),
-      0px 0px 30px rgba(255, 0, 0, 0.34),
-      0px 0px 12px rgba(255, 0, 0, 0.52),
-      0px 0px 21px rgba(255, 0, 0, 0.92),
-      0px 0px 34px rgba(255, 0, 0, 0.78),
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+    text-shadow: 0px 0px 6px rgba(255, 0, 0, 0.92),
+      0px 0px 30px rgba(255, 0, 0, 0.34), 0px 0px 12px rgba(255, 0, 0, 0.52),
+      0px 0px 21px rgba(255, 0, 0, 0.92), 0px 0px 34px rgba(255, 0, 0, 0.78),
       0px 0px 54px rgba(255, 0, 0, 0.92);
   }
-  20%, 24%, 55% {
+  20%,
+  24%,
+  55% {
     text-shadow: navajowhite;
-  } 
+  }
 }
 body {
-  font-family: 'Micro 5', sans-serif;
+  font-family: "Micro 5", sans-serif;
 }
