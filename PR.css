@@ -1,0 +1,96 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f0dede;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+body {
+  margin: 0;
+  background: #000305;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.micro-5-regular {
+  font-family: "Micro 5", sans-serif;
+  font-weight: 400;
+}
+
+.title {
+  font-size: 4rem;
+  color: #ff305b; /* Neon-like pinkish-red */
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  animation: neon-flicker 1s ease-in-out infinite alternate;
+}
+/* Simple box animation */
+.animation-area {
+  width: 0;
+  height: 100px;
+  background-color: #fff;
+  animation: animateBox 5s linear infinite;
+}
+
+@keyframes animateBox {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Fade in and glow animation */
+@keyframes fadeInGlow {
+  0% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.8),
+      0 0 10px rgba(255, 255, 255, 0.8), 0 0 12px rgba(255, 48, 91, 0.8),
+      0 0 14px rgba(255, 48, 91, 0.8), 0 0 16px rgba(255, 48, 91, 0.8),
+      0 0 18px rgba(255, 48, 91, 0.8), 0 0 20px rgba(255, 48, 91, 0.8);
+  }
+}
+
+/* Apply the animation to each character */
+.char {
+  display: inline-block;
+  opacity: 0; /* Start with invisible text */
+  animation: fadeInGlow 3s forwards;
+}
+
+/* Neon flickering effect */
+@keyframes neon-flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow:
+      0px 0px 6px rgba(255, 0, 0, 0.92),
+      0px 0px 30px rgba(255, 0, 0, 0.34),
+      0px 0px 12px rgba(255, 0, 0, 0.52),
+      0px 0px 21px rgba(255, 0, 0, 0.92),
+      0px 0px 34px rgba(255, 0, 0, 0.78),
+      0px 0px 54px rgba(255, 0, 0, 0.92);
+  }
+  20%, 24%, 55% {
+    text-shadow: navajowhite;
+  } 
+}
+body {
+  font-family: 'Micro 5', sans-serif;
+}
