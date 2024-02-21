@@ -1,0 +1,51 @@
+# Ignore system directories
+.VirtualBox/
+.android/
+.arduinoIDE/
+.bash_history
+.dotnet/
+.gitconfig
+.idlerc/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.lesshst
+.librarymanager/
+.platformio/
+.ssh/
+.vscode/
+3D Objects/
+AppData/
+Contacts/
+Documents/
+Downloads/
+Dropbox/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.DAT
+NTUSER.DAT{85cc9639-e213-11ed-8b0a-cbc7ae1c6d6b}.TM.blf
+NTUSER.DAT{85cc9639-e213-11ed-8b0a-cbc7ae1c6d6b}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{85cc9639-e213-11ed-8b0a-cbc7ae1c6d6b}.TMContainer00000000000000000002.regtrans-ms
+849C9593-D756-4E56-8D6E-42412F2A707B
+RECURSION.ipynb
+Saved Games/
+Searches/
+TEST.ipynb
+Untitled.ipynb
+Untitled1-Copy1.ipynb
+Viasfora/
+Videos/
+VirtualBox VMs/
+__pycache__/
+airthmatic.py
+doxygen/
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+source/
+trees.c
+
+# Ignore specific files
+desktop.ini
